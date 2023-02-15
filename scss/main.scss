@@ -1,6 +1,17 @@
+@import './colors';
+@import './globalvalues';
+@import './mobilenav';
+@import './header';
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+$font-primary: 'Poppins', sans-serif;
+
 body,
 html {
   margin: 0;
-  background-color: #1a1b26;
-  color: #fafafa;
+  background-color: $background;
+  color: $white;
+  font-family: $font-primary;
 }
+

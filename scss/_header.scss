@@ -1,0 +1,15 @@
+header {
+  box-sizing: border-box;
+  width: 100%;
+  background: $background-darker;
+  border-bottom: $border-primary;
+  
+  padding: 1rem;
+
+  display: flex;
+  justify-content: space-between;
+
+  #navOpen {
+    font-size: 1.5rem;
+  }
+}
