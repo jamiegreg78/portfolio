@@ -1,8 +1,11 @@
 $white: #fafafa;
 $black: #000000;
+$purple: #bb9af7;
 
 $background: #1a1b26;
 $background-darker: darken($background, 2.5);
+$background-lighter: #24283b;
+$background-lighter-hover: lighten($background-lighter, 2.5);
 
 
 $border-primary: solid 1px darken($background, 4);

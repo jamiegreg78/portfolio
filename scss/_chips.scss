@@ -1,0 +1,25 @@
+.tech-chip {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+
+  padding: 4px 8px;
+
+  border-radius: 4px;
+
+  i {
+    font-size: 24px;
+
+    @include min-width(medium) {
+      padding-right: 4px;
+    }
+  }
+
+  span {
+    display: none;
+    font-size: 16px;
+    @include min-width(medium) {
+      display: block;
+    }
+  }
+}

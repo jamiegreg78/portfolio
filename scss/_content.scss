@@ -1,0 +1,60 @@
+.about, .projects {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  max-width: 800px;
+  height: 100%;
+
+  padding: $container-padding;
+  margin: auto;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  max-width: 800px;
+  height: 100%;
+
+  margin: auto;
+
+  padding: $container-padding;
+
+  // TODO: PUT INTO OWN FILE
+  .project-card {
+
+    width: calc(50% - 12px);
+    background-color: $background-lighter;
+
+    border-radius: 10px;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    .card-content {
+      padding: $container-padding;
+
+      h3 {
+        margin: 0;
+      }
+
+      .technology {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        padding-top: 8px;
+      }
+    }
+
+    &:hover {
+      background-color: $background-lighter-hover;
+      cursor: pointer;
+    }
+  }
+}

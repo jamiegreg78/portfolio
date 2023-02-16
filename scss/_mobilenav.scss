@@ -23,6 +23,10 @@
     
     #navClose {
       font-size: 1.5rem;
+
+      &:hover {
+        cursor: pointer;
+      }
     }
   }
 
